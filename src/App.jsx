@@ -22,7 +22,8 @@ function Home() {
  return (
     <div className='home'>
       <Header />
-      <Navbar />      
+      <Navbar />
+          
     </div>
         
   )  
@@ -73,6 +74,8 @@ function App() {
       
       
     </BrowserRouter>
+
+  
     
   );
 }

@@ -9,9 +9,13 @@ const Navbar = () => {
             <img src="images/storaid-logo.svg" alt="StorAid Logo" />
 
             
+
+            
             <button class="book-btn">Book Now</button>
             
       </div>
+
+      
 
     </>
   )

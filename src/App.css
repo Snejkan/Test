@@ -6,7 +6,7 @@
 }
 
 :root {
-    --primary: #6366f1;
+    --primary: #ffffff;
 
     --color-body-text: #565973;
     --color-body-background: #ffffff;    
@@ -33,25 +33,20 @@ body {
 
 .header {
   background-color: #0e2a25;
-  padding: 0.5rem 2rem;
+  padding: 0.9rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: #fff;
 }
 
-.header img {
-  height: 45px;
-}
 
 .contact-info {
   display: flex;
-  gap: 1.5rem;
+  gap: 2.0rem;
   align-items: center;
   font-size: 0.9rem;
 }
-
-
 
 .book-btn {
   background: #f5c400;
@@ -67,11 +62,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 5rem 4rem;
+  padding: 1rem 4rem;
   background-color: #ffffff;
   color: white;
 }
 
 .footer {
-  justify-content: center;
+  justify-content: center;  
+  
 }
