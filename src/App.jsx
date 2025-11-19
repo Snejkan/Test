@@ -11,23 +11,27 @@ import Footer from './assets/components/Footer';
 
 
 
+
+
+
+
+
+
+
 function Home() {
  return (
-    <div className='header'>
+    <div className='home'>
       <Header />
       <Navbar />      
     </div>
         
-  )
-  
-
-  
+  )  
    
 }
 
 function About() {
   return (
-    <div className='header'>
+    <div className='home'>
       <Header />
       <Navbar />
     </div>
@@ -36,7 +40,7 @@ function About() {
 
 function Contact() {
   return (
-    <div className='header'>
+    <div className='home'>
       <Header />
       <Navbar />
     </div>
@@ -63,7 +67,11 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         
       </Routes>
-      <Footer />
+      <Footer>
+        <img src="public/images/Footer.svg" alt="" />
+      </Footer> 
+      
+      
     </BrowserRouter>
     
   );
